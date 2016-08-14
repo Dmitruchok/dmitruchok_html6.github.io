@@ -23,7 +23,7 @@ heder {
 }
 
 .tell {
-    width: 37px;
+    width: 307px;
     margin-top: 7px;
     font-size: 18px;
     display: flex;
@@ -106,4 +106,52 @@ input[type="text"]::-webkit-input-placeholder {
 
 .map_site {
 	margin: 2px 0 0 12px;
+}
+
+.nav_menu {
+    margin-top: 5px;
+    background-color: #090a0a;
+    display: flex;
+    border-radius: 7px;
+}
+
+.nav_menu ul {
+	margin-left: 86px;
+	display: flex;
+	list-style-type: none;
+}
+
+.nav_menu li {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.nav_menu a {
+	padding: 3px 12px;
+	text-decoration: none;
+    color: #fff;
+}
+
+.nav_menu a:hover {
+	background-color: #154b6d;
+	border-radius: 25px;
+
+}
+
+.nav_menu p {
+	margin: 0;
+	color: #0d5a8f;
+}
+
+.order {
+	margin-left: 42px;
+	display: flex;
+	align-items: center;
+}
+
+.order a {
+    font-size: 11px;
+    margin-left: 6px;
+    text-decoration: none;
+    color: #fff;
 }
