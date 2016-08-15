@@ -188,26 +188,29 @@ form select {
 
 /*SIDEBAR*/
 
+.sidebar p {
+    margin: 0;
+}
+
 .katalog {
     border-radius: 25px;
     border: 1px solid;
-    width: 190px;
+    width: 175px;
     display: flex;
 }
 
-.bus {
-    border-radius: 25px;
-    border: 1px solid;
-    width: 160px;
-    display: flex;
+.katalog p {
+    margin: 5px;
+    font-size: 13px;
 }
+
 
 .bus,
 .disk,
 .bolts {
     border-radius: 25px;
     border: 1px solid;
-    width: 160px;
+    width: 150px;
     display: flex;
 }
 
