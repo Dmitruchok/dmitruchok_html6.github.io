@@ -44,7 +44,6 @@ heder {
 .log_in {
     margin-left: 3px;
     border-radius: 5px;
-    height: 26px;
     box-shadow: 2px 1px 6px #13466a;
     display: flex;
     align-items: center;
@@ -188,31 +187,63 @@ form select {
 
 /*SIDEBAR*/
 
-.sidebar p {
+.sidebar_left p {
+    margin: 4px;
+}
+
+.sidebar_left li {
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.sidebar_left ul {
     margin: 0;
 }
 
-.katalog {
+.katalog,
+.brends {
     border-radius: 25px;
     border: 1px solid;
-    width: 175px;
+    width: 177px;
     display: flex;
 }
 
-.katalog p {
+.katalog p,
+.brends p {
     margin: 5px;
     font-size: 13px;
 }
 
+.katalog img,
+.brends img {
+    margin: 1px;
+    height: 21px;
+    width: 21px;
+}
 
 .bus,
 .disk,
 .bolts {
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid;
-    width: 150px;
+    width: 148px;
     display: flex;
+    font-size: 15px;
 }
+
+
+.bus {
+    margin-top: 14px;
+}
+
+.bus img, 
+.disk img,
+.bolts img {
+    height: 23px;
+    width: 23px;
+    margin: 1px 0 0 3px;
+}
+
 
 .name li {
     list-style-type: circle;
