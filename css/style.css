@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'HelveticaNeue', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     src: url(../fonts/helveticaneue-thin-webfont.woff);
     src: url(../fonts/helveticaneue-thin-webfont.woff2);
 
@@ -7,7 +7,7 @@
 
 body {
     background: #fff;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 12px;
 }
 
@@ -215,7 +215,7 @@ form select {
 
 .sidebar_center {
     width: 525px;
-    background: linear-gradient(to top, gray, white);
+    background: linear-gradient(to top, #4f7080, #e4e7e8);
 }
 
 .one_line,
@@ -225,11 +225,15 @@ form select {
 }
 
 figure {
-    margin: 10px 20px;
+    margin: 10px 11px 13px 18px;
 }
 
 figcaption {
-    text-align: center;
+    margin-left: 37px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #114165;
+    font-style: italic;
 }
 
 .sidebar_right {
@@ -238,12 +242,32 @@ figcaption {
 
 .sidebar_right label {
     display: flex;
-    margin-left: 12px;
+    align-items: center;
+    margin-left: 23px;
 }
 
-.sidebar_right .bus,
-.disk {
+.sidebar_right .bus, 
+.sidebar_right .disk {
+    margin-top: 14px;
     margin-left: 12px;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 136px;
+    display: flex;
+    font-size: 15px;
+}
+
+input[type=checkbox] {
+    margin-right: 12px;
+}
+
+input[type=submit] {
+    padding: 7px 13px;
+    margin: 17px 20px;
+    background: #154b6d;
+    color: #fff;
+    border-radius: 13px;
+    outline: none;
 }
 
 .katalog,
@@ -267,9 +291,9 @@ figcaption {
     width: 21px;
 }
 
-.bus,
-.disk,
-.bolts {
+.sidebar_left .bus,
+.sidebar_left .disk,
+.sidebar_left .bolts {
     border-radius: 15px;
     border: 1px solid;
     width: 148px;
