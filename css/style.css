@@ -187,11 +187,17 @@ form select {
 
 /*SIDEBAR*/
 
-.sidebar_left p {
+.sidebar {
+    display: flex;
+}
+
+.sidebar_left p,
+.sidebar_right p {
     margin: 4px;
 }
 
-.sidebar_left li {
+.sidebar_left li,
+.sidebar_right label {
     line-height: 25px;
     font-size: 13px;
 }
@@ -200,11 +206,26 @@ form select {
     margin: 0;
 }
 
+.sidebar_center {
+    width: 525px;
+    background: linear-gradient(to top, gray, white);
+}
+
+.sidebar_right label {
+    display: flex;
+    margin-left: 12px;
+}
+
+.sidebar_right .bus,
+.disk {
+    margin-left: 12px;
+}
+
 .katalog,
 .brends {
     border-radius: 25px;
     border: 1px solid;
-    width: 177px;
+    width: 180px;
     display: flex;
 }
 
