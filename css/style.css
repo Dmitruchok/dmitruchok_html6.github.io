@@ -1,14 +1,16 @@
+@font-face {
+    font-family: 'HelveticaNeue', Arial, sans-serif;
+    src: url(../fonts/helveticaneue-thin-webfont.woff);
+    src: url(../fonts/helveticaneue-thin-webfont.woff2);
+
+}
+
 body {
     background: #fff;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 12px;
 }
 
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url(C:\Users\Оля\Downloads/HelveticaNeue.ttf);
-
-}
 
 .main-block {
     width: 910px;
