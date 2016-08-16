@@ -189,6 +189,11 @@ form select {
 
 .sidebar {
     display: flex;
+    margin-top: 162px;
+}
+
+.sidebar_left {
+    margin-right: 10px;
 }
 
 .sidebar_left p,
@@ -209,6 +214,24 @@ form select {
 .sidebar_center {
     width: 525px;
     background: linear-gradient(to top, gray, white);
+}
+
+.one_line,
+.two_line, 
+.three_line {
+    display: flex;
+}
+
+figure {
+    margin: 10px 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.sidebar_right {
+    margin-left: 11px;
 }
 
 .sidebar_right label {
