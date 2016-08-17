@@ -392,6 +392,10 @@ footer {
     text-decoration: none;
 }
 
+.foot_menu a:hover {
+    color: #4d9fbd;
+}
+
 li.foot_contact {
     border: 0;
 }
