@@ -336,20 +336,31 @@ input[type=submit] {
 /*FOOTER*/
 
 footer {
+    margin-top: 20px;
     background-color: #114266;
 }
 
 
 .foot_menu ul {
     display: flex;
+    margin-left: 256px;
 }
 
 .foot_menu li {
+    margin: 11px 0 0 3px;
     border-right: 1px solid #fff;
     list-style-type: none;
 }
 
 .foot_menu a {
+    margin: 12px;
     color: #fff;
     text-decoration: none;
+}
+
+.foot_menu span {
+    color: #c17d00;
+    font-size: 11px;
+    display: block;
+    text-align: center;
 }
