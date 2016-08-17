@@ -272,6 +272,7 @@ input[type=submit] {
 
 .katalog,
 .brends {
+    box-shadow: 8px 7px 10px -5px;
     border-radius: 25px;
     border: 1px solid;
     width: 180px;
