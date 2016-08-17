@@ -322,6 +322,7 @@ input[type=submit] {
 }
 
 .stamps {
+    display: inline-block;
     margin-top: 54px;
     margin-left: 110px;
 }
@@ -330,4 +331,25 @@ input[type=submit] {
     margin: 0 7px 0 6px;
     float: left;
     display: block;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #114266;
+}
+
+
+.foot_menu ul {
+    display: flex;
+}
+
+.foot_menu li {
+    border-right: 1px solid #fff;
+    list-style-type: none;
+}
+
+.foot_menu a {
+    color: #fff;
+    text-decoration: none;
 }
