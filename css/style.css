@@ -110,7 +110,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .nav_menu {
-    margin-top: 5px;
+    margin-top: 2px;
     background-image: url(../img/panel.png);
     display: flex;
     border-radius: 7px;
@@ -130,11 +130,12 @@ input[type="text"]::-webkit-input-placeholder {
 .nav_menu a {
 	padding: 3px 14px;
 	text-decoration: none;
-    color: #fff;
+    color: #b4afaf;
 }
 
-.nav_menu a:hover {
+.nav_menu ul a:hover {
 	background-color: #154b6d;
+    color: #fff;
 	border-radius: 25px;
 
 }
@@ -156,7 +157,7 @@ input[type="text"]::-webkit-input-placeholder {
     padding: 5px;
     font-size: 11px;
     text-decoration: none;
-    color: #fff;
+    color: #b4afaf;
 }
 
 /*CONTENT*/
@@ -200,7 +201,7 @@ form select {
 
 .sidebar_left p,
 .sidebar_right p {
-    margin: 4px;
+    margin: 4px 3px;
 }
 
 .sidebar_left li,
@@ -215,7 +216,7 @@ form select {
 
 .sidebar_center {
     width: 525px;
-    background: linear-gradient(to top, #4f7080, #e4e7e8);
+    background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
 .one_line,
@@ -248,7 +249,7 @@ figcaption {
 
 .sidebar_right .bus, 
 .sidebar_right .disk {
-    margin-top: 14px;
+    margin-top: 12px;
     margin-left: 12px;
     border-radius: 15px;
     border: 1px solid;
@@ -258,8 +259,10 @@ figcaption {
 }
 
 input[type=checkbox] {
+    height: 11px;
+    width: 11px;
     margin-right: 12px;
-    box-shadow: inset 3px 3px 2px #154b6d;
+    box-shadow: inset 3px 2px 2px #154b6d;
 }
 
 input[type=submit] {
@@ -282,7 +285,7 @@ input[type=submit] {
 
 .katalog p,
 .brends p {
-    margin: 5px;
+    margin: 6px 5px;
     font-size: 13px;
 }
 
@@ -337,7 +340,7 @@ input[type=submit] {
 
 footer {
     margin-top: 20px;
-    background-color: #114266;
+    background-color: #213a4d;
 }
 
 
@@ -359,7 +362,7 @@ footer {
 }
 
 .foot_menu span {
-    color: #c17d00;
+    color: #704543;
     font-size: 11px;
     display: block;
     text-align: center;
