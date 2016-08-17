@@ -202,16 +202,31 @@ form select {
 .sidebar_left p,
 .sidebar_right p {
     margin: 4px 3px;
-}
-
-.sidebar_left li,
-.sidebar_right label {
-    line-height: 25px;
-    font-size: 13px;
+    color: #325473;
 }
 
 .sidebar_left ul {
     margin: 0;
+}
+
+.sidebar_left li  {
+    line-height: 25px;
+    font-size: 13px;
+    }
+
+.sidebar_left a {
+    color: #325473;
+    text-decoration: none;
+}
+
+.sidebar_left .bus,
+.sidebar_left .disk,
+.sidebar_left .bolts {
+    border-radius: 15px;
+    border: 1px solid;
+    width: 148px;
+    display: flex;
+    font-size: 15px;
 }
 
 .sidebar_center {
@@ -245,6 +260,9 @@ figcaption {
     display: flex;
     align-items: center;
     margin-left: 23px;
+    color: #325473;
+    line-height: 26px;
+    font-size: 13px;
 }
 
 .sidebar_right .bus, 
@@ -266,8 +284,8 @@ input[type=checkbox] {
 }
 
 input[type=submit] {
-    padding: 7px 13px;
-    margin: 17px 20px;
+    padding: 5px 12px;
+    margin: 14px 20px;
     background: #154b6d;
     color: #fff;
     border-radius: 13px;
@@ -295,17 +313,6 @@ input[type=submit] {
     height: 21px;
     width: 21px;
 }
-
-.sidebar_left .bus,
-.sidebar_left .disk,
-.sidebar_left .bolts {
-    border-radius: 15px;
-    border: 1px solid;
-    width: 148px;
-    display: flex;
-    font-size: 15px;
-}
-
 
 .bus {
     margin-top: 14px;
