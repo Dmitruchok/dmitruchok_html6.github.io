@@ -259,6 +259,7 @@ figcaption {
 
 input[type=checkbox] {
     margin-right: 12px;
+    box-shadow: inset 3px 3px 2px #154b6d;
 }
 
 input[type=submit] {
@@ -318,4 +319,15 @@ input[type=submit] {
 
 .name li {
     list-style-type: circle;
+}
+
+.stamps {
+    margin-top: 54px;
+    margin-left: 110px;
+}
+
+.stamps img {
+    margin: 0 7px 0 6px;
+    float: left;
+    display: block;
 }
