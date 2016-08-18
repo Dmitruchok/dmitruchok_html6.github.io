@@ -223,11 +223,13 @@ form select {
 }
 
 h3 {
-    margin: 0px 61px;
+    margin: 0 78px 0 48px;
+    font-size: 13px;
 }
 
 h4 {
-    margin: 3px 16px;
+    margin: 3px 19px;
+    font-size: 12px;
 }
 
 .marka_avto {
@@ -300,7 +302,7 @@ h4 {
 
 .sidebar {
     display: flex;
-    margin-top: 17px;
+    margin-top: 15px;
 }
 
 .sidebar_left {
@@ -333,7 +335,7 @@ h4 {
 
 .sidebar_left a:hover {
     font-family: SecondFont;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -494,7 +496,7 @@ footer {
 }
 
 .foot_menu li {
-    margin: 9px 0 0 0;
+    margin-top: 10px;
     border-right: 1px solid #fff;
     list-style-type: none;
 }
