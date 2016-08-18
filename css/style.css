@@ -192,6 +192,81 @@ form select {
     width: 100px;
 }
 
+/*CONTAINER*/
+
+.container {
+    width: 410px;
+    border: 1px solid;
+    border-radius: 14px;
+    font-size: 10px;
+}
+
+.head_panel {
+    display: flex;
+}
+
+h3 {
+    margin: 0px 61px;
+}
+
+h4 {
+    margin: 3px 16px;
+}
+
+.marka_avto {
+    display: flex;
+}
+
+.model_avto,
+.year_issue,
+.equipment {
+    display: flex;
+    margin-top: 3px;;
+}
+
+.marka_avto span {
+    margin: 4px 0 0 15px;
+}
+
+.model_avto span {
+    margin: 0 46px 0 15px;
+}
+
+.equipment span {
+    margin: 0 15px;
+}
+
+.marka_avto p {
+    margin: 4px 25px 4px 6px;
+}
+
+.marka_avto select,
+.model_avto select,
+.equipment select {
+    width: 101px;
+    margin-right: 10px;
+}
+
+.year_issue select {
+    width: 58px;
+    margin-right: 52px;
+}
+
+.year_issue span {
+    margin: 0 26px 0 15px;
+}
+
+.left_text_panel,
+.right_text_panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.left_text_panel p,
+.right_text_panel p {
+    margin: -3px 0 0 17px;
+}
+
 /*SIDEBAR*/
 
 .sidebar {
