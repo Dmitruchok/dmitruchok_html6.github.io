@@ -195,7 +195,8 @@ form select {
 /*CONTAINER*/
 
 .container {
-    width: 410px;
+    width: 412px;
+    margin: 12px 6px;
     border: 1px solid;
     border-radius: 14px;
     font-size: 10px;
@@ -229,15 +230,15 @@ h4 {
 }
 
 .model_avto span {
-    margin: 0 46px 0 15px;
+    margin: 0 46px 0 14px;
 }
 
 .equipment span {
-    margin: 0 15px;
+    margin: 4px 15px;
 }
 
 .marka_avto p {
-    margin: 4px 25px 4px 6px;
+    margin: 4px 25px 4px 5px;
 }
 
 .marka_avto select,
@@ -249,11 +250,12 @@ h4 {
 
 .year_issue select {
     width: 58px;
-    margin-right: 52px;
+    margin-right: 55px;
+    margin-left: 24px;
 }
 
 .year_issue span {
-    margin: 0 26px 0 15px;
+    margin-left: 15px;
 }
 
 .left_text_panel,
@@ -264,14 +266,24 @@ h4 {
 
 .left_text_panel p,
 .right_text_panel p {
-    margin: -3px 0 0 17px;
+    margin: -3px 0 0 15px;
+}
+
+.foot_search {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.foot_search a {
+    margin: 2px 0 9px 321px;
 }
 
 /*SIDEBAR*/
 
 .sidebar {
     display: flex;
-    margin-top: 162px;
+    margin-top: 18px;
 }
 
 .sidebar_left {
