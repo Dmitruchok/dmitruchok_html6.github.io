@@ -300,15 +300,15 @@ h4 {
 }
 
 .numb_fastner select {
-    margin: 14px 0 0 14px;
     width: 51px;
     height: 19px;
+    margin: 14px 0 0 14px;
 }
 
 .diametr_place select {
-    margin: 13px 0 0 8px;
     width: 58px;
     height: 19px;
+    margin: 13px 0 0 8px;
 }
 
 .diametr_place .under_text {
@@ -327,8 +327,8 @@ h4 {
 }
 
 .DCO select {
-    margin: 4px 12px;
     width: 59px;
+    margin: 4px 12px;
 }
 
 .ET {
@@ -425,13 +425,13 @@ h4 {
 }
 
 .size select {
-    margin: 5px;
     width: 54px;
+    margin: 5px;
     font-size: 12px;
 }
 
 .size span {
-    margin: 10px 7px 0px 15px;
+    margin: 10px 7px 0 15px;
 }
 
 .slash {
@@ -447,7 +447,7 @@ h4 {
 }
 
 .R span {
-    margin: 4px 6px 0px 46px;
+    margin: 4px 6px 0 46px;
 }
 
 .R select {
