@@ -495,11 +495,11 @@ h4 {
 }
 
 .sidebar_left ul {
-    margin: 0 21px;
+    margin: 0;
 }
 
 .sidebar_left li {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 25px;
 }
 
@@ -634,6 +634,7 @@ input[type=submit] {
 
 .name li {
     list-style-type: circle;
+    list-style-position: inside;
 }
 
 .stamps {
