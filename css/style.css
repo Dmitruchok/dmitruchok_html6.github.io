@@ -1,13 +1,21 @@
 @font-face {
-    font-family: Arial, sans-serif;
+    font-family: FirstFont;
     src: url(../fonts/Lucida Sans Unicode Regular.ttf);
-    src: url(../fonts/arialbi.ttf);
+}
 
+@font-face {
+    font-family: SecondFont;
+    src: url(../fonts/arialbi.ttf);
+}
+
+@font-face {
+    font-family: ThirdFont;
+    src: url(../fonts/arialbl.ttf);
 }
 
 body {
     background: #fff;
-    font-family: 'Lucida Sans Unicode Regular';
+    font-family: FirstFont;
     font-size: 12px;
 }
 
@@ -20,13 +28,14 @@ body {
 
 heder {
     display: flex;
-    margin: 21px 0 11px 6px;
+    margin: 22px 0 11px 6px;
 }
 
 .tell {
     display: flex;
     width: 307px;
     margin-top: 2px;
+    font-family: ThirdFont;
 }
 
 .tell img {
@@ -35,7 +44,7 @@ heder {
 }
 
 .tell p {
-    margin: 0;
+    margin: 0 1px;
     font-size: 19px;
     letter-spacing: 1px;
 }
@@ -195,29 +204,45 @@ form select {
 /*CONTAINER*/
 
 .container {
+    display: flex;
+}
+
+.container p {
+    color: #8d999d;
+}
+
+.search_avto {
     width: 412px;
     margin: 12px 6px;
     border: 1px solid #9e9e9e;
     border-radius: 14px;
-    box-shadow: 8px 7px 10px -5px #9e9e9e;
     font-size: 10px;
+    box-shadow: 8px 7px 10px -5px #9e9e9e;
 }
 
-.container p {
-    color: #9e9e9e;
+.search_bus {
+    width: 194px;
+    margin: 12px 8px;
+    border: 1px solid #9e9e9e;
+    border-radius: 14px;
+    font-size: 11px;
+    box-shadow: 8px 7px 10px -5px #9e9e9e;
 }
 
 .head_panel {
     display: flex;
-    color: #13466a;
+    font-family: ThirdFont;
+    color: #154467;
 }
 
 h3 {
-    margin: 0px 61px;
+    margin: 0 78px 0 48px;
+    font-size: 13px;
 }
 
 h4 {
-    margin: 3px 16px;
+    margin: 3px 19px;
+    font-size: 12px;
 }
 
 .marka_avto {
@@ -228,7 +253,7 @@ h4 {
 .year_issue,
 .equipment {
     display: flex;
-    margin-top: 3px;;
+    margin-top: 3px;
 }
 
 .marka_avto span {
@@ -283,27 +308,67 @@ h4 {
 
 .foot_search a {
     margin: 2px 0 9px 321px;
+    color: #154467;
+}
+
+.search_bus .foot_search a {
+    margin: 2px 0 9px 130px;
+    color: #154467;
+}
+
+.search_bus .head_panel h3 {
+    margin: 1px 13px;
+}
+
+.size {
+    display: flex;
+}
+
+.size select {
+    margin: 5px;
+    width: 54px;
+    font-size: 12px;
+}
+
+.size span {
+    margin: 10px 7px 0px 15px;
+}
+
+.R {
+    display: flex;
+}
+
+.R span {
+    margin: 4px 6px 0px 46px;
+}
+
+.R select {
+    width: 46px;
 }
 
 /*SIDEBAR*/
 
 .sidebar {
     display: flex;
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 .sidebar_left {
     margin-right: 10px;
 }
 
-.sidebar_left p,
-.sidebar_right p {
+.sidebar_left p{
     margin: 4px 3px;
     color: #325473;
 }
 
+.sidebar_right p {
+    margin: 5px 4px;
+    color: #325473;
+}
+
 .sidebar_left ul {
-    margin: 0;
+    margin: 0 21px;
 }
 
 .sidebar_left li {
@@ -317,9 +382,8 @@ h4 {
 }
 
 .sidebar_left a:hover {
-    font-family: 'arialbi';
-    font-size: 15px;
-    font-style: italic;
+    font-family: SecondFont;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -346,14 +410,14 @@ h4 {
 }
 
 figure {
-    margin: 11px 5px 10px 23px;
+    margin: 13px 5px 10px 23px
 }
 
 figcaption {
     margin-left: 37px;
     color: #114165;
-    font-family: 'arialbi';
-    font-size: 18px;
+    font-family: SecondFont;
+    font-size: 17px;
     font-weight: 900;
 }
 
@@ -370,8 +434,7 @@ figcaption {
     line-height: 26px;
 }
 
-.sidebar_right .bus,
-.sidebar_right .disk {
+.sidebar_right .bus {
     display: flex;
     width: 136px;
     margin-top: 12px;
@@ -381,10 +444,21 @@ figcaption {
     font-size: 15px;
 }
 
+.sidebar_right .disk {
+    display: flex;
+    width: 136px;
+    margin-top: 5px;
+    margin-left: 12px;
+    border: 1px solid #9e9e9e;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
 input[type=checkbox] {
     width: 11px;
     height: 11px;
-    margin-right: 12px;
+    margin-right: 16px;
     box-shadow: inset 3px 2px 2px #465961;
 }
 
@@ -401,6 +475,7 @@ input[type=submit] {
 .brends {
     display: flex;
     width: 180px;
+    margin-top: 4px;
     border: 1px solid #9e9e9e;
     border-radius: 25px;
     box-shadow: 8px 7px 10px -5px #9e9e9e;
@@ -456,6 +531,7 @@ input[type=submit] {
 footer {
     margin-top: 20px;
     background-color: #213a4d;
+    font-family: ThirdFont;
 }
 
 .foot_menu {
@@ -468,7 +544,7 @@ footer {
 }
 
 .foot_menu li {
-    margin: 9px 0 0 0;
+    margin-top: 10px;
     border-right: 1px solid #fff;
     list-style-type: none;
 }
