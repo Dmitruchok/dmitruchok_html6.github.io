@@ -469,14 +469,14 @@ h4 {
 }
 
 .sezon input[type="checkbox"] {
-        margin: 0 5px 0 0;
+    margin: 0 5px 0 0;
 }
 
 /*SIDEBAR*/
 
 .sidebar {
     display: flex;
-    margin-top: 3px;
+    margin-top: 6px;
 }
 
 .sidebar_left {
