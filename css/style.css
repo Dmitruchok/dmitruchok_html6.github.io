@@ -261,7 +261,7 @@ h4 {
 }
 
 .search_disks p {
-    margin: 0 9px 0 0;
+    margin: -2px 9px 0 0;
     color: #8d999d;
 }
 
@@ -303,14 +303,14 @@ h4 {
 }
 
 .numb_fastner select {
-    margin: 14px 0 0 5px;
+    margin: 14px 0 0 14px;
     width: 51px;
     height: 19px;
 }
 
 .diametr_place select {
-    margin: 10px 0 0 0;
-    width: 57px;
+    margin: 13px 0 0 8px;
+    width: 58px;
     height: 19px;
 }
 
