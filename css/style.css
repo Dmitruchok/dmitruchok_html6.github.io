@@ -245,6 +245,24 @@ h4 {
     font-size: 12px;
 }
 
+.search_disks {.
+    display: flex;
+    width: 264px;
+    margin: 10px 3px;
+    border: 1px solid #9e9e9e;
+    border-radius: 14px;
+    font-size: 11px;
+    box-shadow: 8px 7px 10px -5px #9e9e9e;
+}
+
+.diametr_disk,
+.numb_fastner,
+.diametr_place,
+.DCO,
+.ET {
+    display: flex;
+}
+
 .marka_avto {
     display: flex;
 }
@@ -332,6 +350,14 @@ h4 {
 
 .size span {
     margin: 10px 7px 0px 15px;
+}
+
+.slash {
+    margin-top: 7px;
+}
+
+.slash p {
+    margin: 0;
 }
 
 .R {
