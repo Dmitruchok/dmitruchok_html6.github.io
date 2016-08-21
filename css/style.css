@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'LucidaSansUnicodeRegular';
-    src: url(../fonts/LucidaSansUnicodeRegular.ttf);
+    src: url('../fonts/LucidaSansUnicodeRegular.ttf');
 }
 
 @font-face {
     font-family: 'arialbi';
-    src: url(../fonts/arialbi.ttf);
+    src: url('../fonts/arialbi.ttf');
 }
 
 @font-face {
     font-family: 'arialbl';
-    src: url(../fonts/arialbl.ttf);
+    src: url('../fonts/arialbl.ttf');
 }
 
 body {
@@ -45,9 +45,9 @@ heder {
 
 .tell p {
     margin: 0 1px;
+    color: #6d767a;
     font-size: 19px;
     letter-spacing: 1px;
-    color: #6d767a;
 }
 
 .log_in {
@@ -82,8 +82,8 @@ heder {
 }
 
 .reg a {
-    margin-left: 5px;
     margin-right: 19px;
+    margin-left: 5px;
     color: #fff;
     font-size: 11px;
     text-decoration: none;
@@ -112,8 +112,8 @@ input[type="text"]::-webkit-input-placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20px;
     width: 76px;
+    height: 20px;
     margin-left: 16px;
     border: 1px solid #9e9e9e;
     border-radius: 13px;
@@ -128,7 +128,7 @@ input[type="text"]::-webkit-input-placeholder {
     display: flex;
     margin-top: 3px;
     border-radius: 7px;
-    background-image: url(../img/panel.png);
+    background-image: url('../img/panel.png');
     background-repeat: no-repeat;
 }
 
@@ -223,6 +223,7 @@ form select {
 .container select {
     height: 18px;
 }
+
 .search_avto {
     width: 412px;
     margin: 10px 0 0 6px;
@@ -399,7 +400,7 @@ h4 {
     margin-right: 11px;
 }
 
-.model_avto select{
+.model_avto select {
     width: 101px;
     margin-right: 11px;
     margin-left: 21px;
@@ -511,11 +512,11 @@ h4 {
 }
 
 .sidebar_left {
-    margin-right: 10px;
     margin-top: 2px;
+    margin-right: 10px;
 }
 
-.sidebar_left p{
+.sidebar_left p {
     margin: 4px 3px;
     color: #325473;
 }
@@ -540,11 +541,11 @@ h4 {
 }
 
 .sidebar_left a:hover {
+    transition: .2s, all;
     color: #2f4966;
     font-family: 'arialbi';
     font-size: 14px;
     text-decoration: underline;
-    transition: .2s, all;
 }
 
 .sidebar_left .bus,
