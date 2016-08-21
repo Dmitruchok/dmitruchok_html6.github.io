@@ -377,7 +377,7 @@ h4 {
 }
 
 .marka_avto span {
-    margin: 4px 0 0 17px;
+    margin: 4px 0 0 16px;
 }
 
 .equipment span {
@@ -430,7 +430,8 @@ h4 {
 }
 
 .foot_search a {
-    margin: 2px 0 9px 340px;
+    display: block;
+    margin: 2px 0 7px 340px;
     color: #154467;
     font-style: italic;
 }
