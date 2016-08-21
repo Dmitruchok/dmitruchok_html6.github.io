@@ -220,6 +220,9 @@ form select {
     color: #8d999d;
 }
 
+.container select {
+    height: 18px;
+}
 .search_avto {
     width: 412px;
     margin: 10px 0 0 6px;
@@ -370,7 +373,7 @@ h4 {
 .year_issue,
 .equipment {
     display: flex;
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
 .marka_avto span {
@@ -398,12 +401,14 @@ h4 {
 
 .model_avto select{
     width: 101px;
-    margin-right: 12px;
+    margin-right: 11px;
+    margin-left: 21px;
 }
 
 .year_issue select {
     width: 58px;
     margin-right: 55px;
+    margin-left: 15px;
 }
 
 
@@ -411,8 +416,7 @@ h4 {
 .right_text_panel {
     display: flex;
     flex-direction: column;
-    margin-left: 17px;
-    margin-right: 14px;
+    margin-left: 16px;
 }
 
 .left_text_panel p,
