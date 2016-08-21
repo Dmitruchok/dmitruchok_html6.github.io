@@ -222,7 +222,7 @@ form select {
 
 .search_avto {
     width: 412px;
-    margin: 10px 0 11px 5px;
+    margin: 10px 0 0 6px;
     border: 1px solid #9e9e9e;
     border-radius: 16px;
     font-size: 10px;
@@ -231,10 +231,10 @@ form select {
 
 .search_bus {
     width: 190px;
-    margin: 10px 0 6px 16px;
+    margin: 10px 0 0 14px;
     border: 1px solid #9e9e9e;
     border-radius: 16px;
-    font-size: 11px;
+    font-size: 10px;
     box-shadow: 7px 6px 7px -4px #9e9e9e;
 }
 
@@ -256,7 +256,7 @@ h4 {
 .search_disks {
     display: flex;
     width: 267px;
-    margin: 10px 0 8px 10px;
+    margin: 10px 0 0 10px;
     border: 1px solid #9e9e9e;
     border-radius: 16px;
     font-size: 11px;
@@ -264,8 +264,8 @@ h4 {
 }
 
 .search_disks h3 {
-    margin: 0 10px;
-    font-size: 14px;
+    margin: 0 9px;
+    font-size: 15px;
 }
 
 .search_disks p {
@@ -274,12 +274,17 @@ h4 {
 }
 
 .search_disks .foot_search a {
-    margin: 0 5px;
+    display: block;
+    margin: 2px 0 0 20px;
     color: #154467;
 }
 
 .border {
     border-right: 1px solid #8d999d;
+}
+
+.border p {
+    font-size: 9px;
 }
 
 .diametr_disk,
@@ -291,38 +296,40 @@ h4 {
 .under_text {
     display: flex;
     flex-direction: column;
-    margin: 0 10px 0 16px;
+    margin: 1px 3px 0 15px;
 }
 
-.diametr_disk {
-    margin: 4px 12px 0 16px;
+.diametr_disk span {
+    margin: 6px 0 0 15px;
 }
 
 .diametr_disk  select {
     width: 58px;
-}
+    height: 18px;
+    margin: 2px 11px 0 6px;
+ }
 
 .diametr_disk p {
-    margin: 0 9px;
+    margin: 5px 4px 0 4px;
     color: #8d999d;
 }
 
 .numb_fastner select {
     width: 51px;
-    height: 19px;
-    margin: 14px 0 0 14px;
+    height: 18px;
+    margin: 13px 0 0 26px;
 }
 
 .diametr_place select {
     width: 58px;
-    height: 19px;
-    margin: 13px 0 0 8px;
+    height: 18px;
+    margin: 13px 0 0 15px;
 }
 
 .diametr_place .under_text {
     display: flex;
     flex-direction: column;
-    margin: 0 5px 0 16px;
+    margin: 1px 0 0 16px;
 }
 
 .DCO .under_text {
@@ -330,13 +337,14 @@ h4 {
 }
 
 .DCO p {
-    margin: -4px 9px 0 0;
     color: #8d999d;
+    font-size: 9px;
 }
 
 .DCO select {
-    width: 59px;
-    margin: 4px 12px;
+    width: 58px;
+    height: 18px;
+    margin: 1px 10px;
 }
 
 .ET {
@@ -344,13 +352,14 @@ h4 {
 }
 
 .ET select {
-    width: 59px;
-    margin: 3px;
+    width: 58px;
+    height: 18px;
+    margin: 3px 0;
 }
 
 .ET p {
-    margin: -6px 9px 0 0;
     color: #8d999d;
+    font-size: 8px;
 }
 
 .marka_avto {
@@ -408,26 +417,28 @@ h4 {
 
 .left_text_panel p,
 .right_text_panel p {
-    margin: -3px 0 0 0;
+    margin: 0;
+    font-size: 9px;
 }
 
 .foot_search {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .foot_search a {
-    margin: 2px 0 9px 326px;
+    margin: 2px 0 9px 340px;
     color: #154467;
     font-style: italic;
 }
 
 .search_bus .foot_search a {
-    margin: 0 0 9px 107px;
+    margin-left: 120px;
     color: #154467;
 }
 
-.search_bus .head_panel h3 {
-    margin: 1px 13px;
+.search_bus h3 {
+    margin: 1px 10px;
+    font-size: 13px;
 }
 
 .size {
@@ -435,13 +446,12 @@ h4 {
 }
 
 .size select {
-    width: 54px;
-    margin: 5px;
-    font-size: 12px;
+    width: 50px;
+    margin: 5px 5px 0 11px;
 }
 
 .size span {
-    margin: 10px 7px 0 15px;
+    margin: 12px 0 0 12px;
 }
 
 .slash {
@@ -457,11 +467,12 @@ h4 {
 }
 
 .R span {
-    margin: 4px 6px 0 46px;
+    margin: 9px 7px 0 45px;
 }
 
 .R select {
-    width: 46px;
+    width: 45px;
+    margin-top: 5px;
 }
 
 .sezon {
@@ -472,14 +483,19 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 7px;
+    font-size: 12px;
+}
+
+.sezon_box label {
+    display: flex;
 }
 
 .sezon .left_panel {
-    margin: 2px 15px;
+    margin: 2px 14px 0 15px;
 }
 
 .sezon input[type="checkbox"] {
-    margin: 0 5px 0 0;
+    margin: 0;
 }
 
 /*SIDEBAR*/
