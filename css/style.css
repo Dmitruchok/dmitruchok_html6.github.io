@@ -704,6 +704,7 @@ input[type=submit] {
 footer {
     margin-top: 17px;
     background-color: #213a4d;
+    font-family: 'Arial-Regular.ttf';
 }
 
 .foot_menu {
@@ -716,14 +717,14 @@ footer {
 }
 
 .foot_menu li {
-    margin-top: 10px;
-    border-right: 1px solid #fff;
+    margin-top: 12px;
+    border-right: 2px solid #fff;
     list-style-type: none;
 }
 
 .foot_menu a {
     display: block;
-    margin: 0 10px 0 13px;
+    margin: 0 12px 0 15px;
     color: #fff;
     text-decoration: none;
 }
