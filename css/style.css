@@ -135,8 +135,9 @@ input[type="text"]::-webkit-input-placeholder {
     display: flex;
     margin-top: 3px;
     border-radius: 7px;
-    background-image: url('../img/panel.png');
+    background: #050506;
     background-repeat: no-repeat;
+    box-shadow: 3px 2px 8px -1px #050506;
 }
 
 .nav_menu ul {
@@ -569,6 +570,9 @@ h4 {
     background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
+.sidebar_center span {
+    font-size: 14px;
+}
 .one_line,
 .two_line,
 .three_line {
