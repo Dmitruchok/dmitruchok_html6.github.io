@@ -185,7 +185,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 p.summ {
-    margin: 0 0 0 13px;
+    margin-left: 13px;
 }
 
 /*CONTENT*/
@@ -567,6 +567,7 @@ h4 {
 
 .sidebar_center {
     width: 525px;
+    padding-bottom: 23px;
     background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
@@ -579,16 +580,9 @@ h4 {
     display: flex;
 }
 
-.one_line figure {
-    margin: 12px 6px 7px 22px;
-}
-
-.two_line figure {
-    margin: 14px 5px 0 22px;
-}
-
-.three_line figure {
-    margin: 24px 5px 0 22px;
+figure {
+    margin: 17px 14px 4px 14px;
+    display: inline-block;
 }
 
 figcaption {
