@@ -567,7 +567,7 @@ h4 {
 
 .sidebar_center {
     width: 525px;
-    padding-bottom: 23px;
+    padding-bottom: 20px;
     background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
@@ -581,12 +581,17 @@ h4 {
 }
 
 figure {
-    margin: 16px 4px 4px 21px;
+    margin: 14px 4px 9px 21px;
     display: inline-block;
 }
 
+figure img {
+  display: block;
+}
+
 figcaption {
-    margin-left: 34px;
+    margin-left: 35px;
+    margin-top: 1px;
     color: #114165;
     font-family: 'arialbi';
     font-size: 17px;
